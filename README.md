@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors
 
 # Brief Overview of the game
-This computer game has been recreated from what was commonly played as kids, a popular game played by all kids. But here, instead of playing with another person, you play against your computer or other electronic device.
+This computer game has been recreated from what was commonly played as kids, a popular game played by all kids. But here, instead of playing with another person, you play against your computer or other electronic device. It has been created using freecodecamp's tutorials along with me creating a few changes to it. 
 
 # Instructions
 - The game is relatively easy to play, it's always users that begins the game.
