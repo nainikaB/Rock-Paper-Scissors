@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <div class="wrapper" id="restart-btn">
+                <button class="btn btn-success pull-right" id="restartBtn">Restart</Button>
+                </div>
+    </header>
+   <!--<div class="wrapper clearfix" >
+        <input type ='text' class = 'winningScore' placeholder = 'Set score'>--> 
+    <div class="score-board"> <!--scores with a 0:0 for comp and user-->
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    </div>
+    <div class="result">
+<p>Paper covers rock. You win!</p>
+    </div>
+    <!--general class of choices-->
+    <div class="choices">  
+       <!--each choice-->
+        <div class="choice" id="r"> 
+        <img src="img/rock.png" alt="">   
+        </div>
+        <div class="choice" id="p"> 
+                <img src="img/paper.png" alt="">   
+                </div>
+                <div class="choice" id="s"> 
+                        <img src="img/scissors.png" alt="">   
+                        </div>
+    </div>
+    <p id="action-message">Let the games begin!</p>
+    </p>
+
+    <div class="instruct">
+        <h2>
+            Instructions:
+        </h2>
+        <p>
+            - This game is played against the computer. <br>
+            - When the computer wins, the computer gets a point and vice versa<br>
+            - So whoever gets the most points wins.<br>
+            - When user gets highlghted with green it means the user has won the match<br>
+            - When the hand icons get highlighted with red it means the user has lost the match.<br>
+            - When both user and computer get highlighted with grey it means its draw and no <br> one has won that round 
+        </p>
+    </div>
+    
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
