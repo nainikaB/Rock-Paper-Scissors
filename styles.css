@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(241, 241, 121);
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+
+
+header > h1 {
+    color: black;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-family: 'Fredoka One', cursive;
+}
+
+.score-board {
+    border: 3px solid black;
+    width: 200px;
+    margin: 50px auto;
+    font-size: 50px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 15px;
+    font-family: monospace;
+    position: relative;
+    
+    
+}
+
+.badge {
+    background: white;
+    color: black;
+    font-size: 20px;
+    padding: 2px 18px;
+    font-family: sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px; /* need to find the start of the scorboard top left corner and not browser */
+    left: -65px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px; /* need to find the start of the scorboard top left corner and not browser */
+    right: -75px;
+}
+
+.result {
+    font-size: 35px;
+    color: black;
+
+}
+
+.result > p {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.choices {
+    margin-top: 50px;
+    text-align: center;
+}
+.choice {
+   
+    display: inline-block;
+    border: 4px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 20px;
+    transition: all 0.4s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: white;
+     
+}
+
+#action-message
+ {
+     text-align: center;
+     color: black;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 25px;
+     padding-top: 40px;
+ }
+
+ .green-glow {
+    border: 4px solid green;
+    box-shadow: 0 0 10px #31b43a
+}
+
+.red-glow {
+    border: 4px solid red;
+    box-shadow: 0 0 10px red;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px grey;
+}
+
+.green-shadow {
+    border: 6px solid green;
+    box-shadow: 0 0 20px #31b43a
+}
+
+.red-shadow {
+    border: 6px solid red;
+    box-shadow: 0 0 20px red;
+}
+
+.grey-shadow {
+    border: 6px solid #464647;
+    box-shadow: 0 0 20px grey;
+}
+
+#restart-btn .wrapper {
+    text-align: left;
+}
+
+#restartBtn {
+    position: absolute;
+    margin: -40px 10px 10px 10px;
+    font-size: 25px;
+    padding-right:40px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 40px;
+    background: grey;
+    color: white;
+}
+
+#restartBtn:hover {
+    background: black;
+}
+
+.winningScore {
+    position: absolute;
+    top: 80px;
+    left: 43.5%;
+    margin-top: 10px;
+    font-size: 18px;
+   
+}
+.instruct  h2 {
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Fredoka One', cursive;
+    padding-top: 30px;
+}
+
+.instruct  p {
+    text-align: left;  
+    padding-left: 34%;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .winningScore {
+        left: 40.5%;
+    }
+}
