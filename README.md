@@ -8,7 +8,8 @@ This computer game has been recreated from what was commonly played as kids, a p
 - Once the user picks from either rock, paper or scissors, the computer will play simultaneously triggering either a win, draw or lose.
 - Whenever the user wins, the user gets the point.
 - Whenever the computer wins, the computer gets the point.
-- The one with the highest points wins.
+- The one with the highest points win.
+- Once you think you have finished the game or you want to restart, you can click on the restart button and the scores will return to 0.
 
 # Rules of the game
 - Paper covers rock, paper wins.
