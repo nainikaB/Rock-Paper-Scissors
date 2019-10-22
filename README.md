@@ -17,5 +17,5 @@ This computer game has been recreated from what was commonly played as kids, a p
 - Rock breaks scissor, rock wins.
 
 # Instructions to run the game 
-Download the project or clone the repo.
+Download the project or clone the repo. <br>
 The game can simply be played by opening index.html in the brower of your choice.
